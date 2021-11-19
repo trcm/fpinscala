@@ -1,1 +1,3 @@
 The function shouldn't require that the two `Par` inputs have the same type.
+
+def map2[A, B, C](a: Par[A], b: Par[B])((A, B) => C): Par[C]
